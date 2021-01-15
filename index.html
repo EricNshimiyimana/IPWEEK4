@@ -35,18 +35,40 @@
   <div>
    <table>
         <tr>
-            <td><h2>How We Started </h2></td>
+            <td><h2> We Started </h2></td>
         </tr>
         <tr>
-            <td><p>we started from the ideas we get when we wre discussing on about what can do for help us to achieve on our dream with friend
-                .
+            <td><p>started from the ideas we get when we wre discussing on about what can do for help us to achieve on our dream with friend       .
         </tr>
     </table>
     <div class="footer">
                     <span>Copyright &copy; neric</span>
                 </div>
-</body>
+                <!-- Table receipt????
+    <div class="container">
+      <h2>Your Order</h2>
+      <p>Your pizza order costs this much;</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Amount</th>
+            <th>Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="products">
 
+          </tr>
+        <tr id="subtotal">
+          <th>Total Cost</th>
+
+        </tr>
+        </tbody>
+      </table>
+    </div> -->
+</body>
+</html>
 
 
 <!-- #####JAVASCRIPT FOR MY CORAZON PIZZA##### -->
@@ -78,5 +100,15 @@ function showSlides(n) {
   }
    slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
+}
+// to compile orger into a sentence
+document.getElementById("sentence").innerHTML = 5 + 6;
+
+// Delivery alert and collect location
+function deliveryAlert() {
+  var delivery = confirm ("Would you like Home Delivery? It's 100/= only!!!");
+if (delivery = true) {
+  var location = prompt ("Enter your location here");
+}
 }
 </script>
