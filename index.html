@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CORAZON PIZZA</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+   <div class="page">
+        <div class="Header">
+          <h1>CORAZON PIZZA</h1>
+            <h5></h5>
+          <li class="dropdown"></li>
+                <button class="dropbtn">Menu</button>
+                <button class="dropbtn">Home</button>
+                <button class="dropbtn">Contact</button>
+                <div class="dropdown-content"></div>
+                <button class="dropbtn">Order</button>
+                <div class="dropdown-content">
+                    <a href="#">SMALL</a>
+                    <a href="#">Medium</a>
+                    <a href="#">Large</a>
+                </div>
+                
+            </li>
+      </div>
+   </div>
+   <div class="slideshow-container">
+       <img src="images/4" style="width:100%">
+   </div>
+
+  <div>
+   <table>
+        <tr>
+            <td><h2>How We Started </h2></td>
+        </tr>
+        <tr>
+            <td><p>we started from the ideas we get when we wre discussing on about what can do for help us to achieve on our dream with friend
+                .
+        </tr>
+    </table>
+    <div class="footer">
+                    <span>Copyright &copy; neric</span>
+                </div>
+</body>
+
+
+
+<!-- #####JAVASCRIPT FOR MY CORAZON PIZZA##### -->
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+   slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
