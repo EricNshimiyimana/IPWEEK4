@@ -20,7 +20,6 @@ Nshimiyimana Eric
     `run`
 ​
 
-​
 # Technologies used
 ​
 * HTML, CSS, Javascript
