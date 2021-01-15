@@ -21,7 +21,6 @@ Nshimiyimana Eric
 ​
 
 ​
-​
 # Technologies used
 ​
 * HTML, CSS, Javascript
