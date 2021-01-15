@@ -19,7 +19,6 @@ Nshimiyimana Eric
 1. Run the launch command
     `run`
 ​
-
 # Technologies used
 ​
 * HTML, CSS, Javascript
