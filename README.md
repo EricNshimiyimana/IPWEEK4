@@ -6,7 +6,6 @@ Web application where customers order pizza in different sizes with different to
 # Author(s) information
 Nshimiyimana Eric
 ​
-​
 # Setup instructions
 1. Fork repository from Github
 ​
